@@ -1,0 +1,293 @@
+
+#nav-ul{
+	text-align: right;
+
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+#navbar{
+	background-color: #008374;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+.dot-span{
+	color: red;
+	margin-left: 1px;
+}
+/*Welcom*/
+#Welcome-main{
+	padding: 50px;
+	
+
+}
+.welcome-h2{
+	font-weight: bold;
+	font-size: 54px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+
+}
+.welcome-p{
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 17px;
+	margin-top: 25px;
+}
+#btn-1{
+	border-radius: 50px;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+	width: 38%
+}
+#btn-span{
+	font-size: 18px;
+}
+#icon-span{
+	font-size: 33px;
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 8px;
+	position: relative;
+    top: 6px;
+}
+@media (max-width: 768px){
+	#Welcome-main2{
+		margin-bottom: 50px;
+		justify-content: center;
+		text-align: center;
+			}
+	.welcome-h2{
+		margin-top: 0;
+	}
+	#wlcm-img{
+		padding: 5px;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+/*card*/
+
+.text-muted {
+     color: white !important;}
+
+ #card-main{
+ 	background: linear-gradient(
+ 		to bottom,
+ 		#008374 0%,
+ 		#008374 50%,
+ 		white 50%,
+ 		white 100%);
+ }
+@media(max-width: 768px){
+	#cards{
+		width: 4rem;
+		margin-right: 112px;		
+	}
+	.card{
+		width: 10rem!important;
+		height: 220px!important;
+	}
+	.card-title{
+		font-size: 25px;
+	}
+
+}
+
+
+/*CONTENT*/
+
+.img{
+	width: 40%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+@media(max-width: 768px){
+	#img3{
+		width: 85%;
+			}
+
+}
+
+
+/*company*/
+
+.companylogo{
+	width: 10px;
+}
+
+
+ .number{
+ 	font-size: 40px;
+ 	color: #008374;
+ 	font-weight: bold;
+ 	margin-right: 20px;
+ }
+
+
+
+
+ .city1{
+ 	position: relative;
+  
+  color: white;
+ }
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+#cityimg{
+	border-radius: 15px;
+	opacity: 0.9;
+	height: 450px;
+	width: 90%;
+}
+.play-btn{
+	font-size: 20px;
+	font-size: 25px;
+    background-color: #008374;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 2px 6px 11px #1d9b96a6;
+    border-radius: 50%;
+    position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+	background: transparent;
+    height: 50px;
+    width: 230px;
+    color: white;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 27px;
+    font-size: 20px;
+}
+#form-btn{
+	background-color: #008374;
+	color: white;
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+
+
+#questions{
+	font-size: 22px;
+	font-weight: 500;
+}
+.accordion-item{
+	border: 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+}
+#questions:hover{
+	color:  #008374;
+}
+#inputEmail4{
+	height: 55px;
+}
+#inputPassword4{
+	height: 55px;
+}
+#inputAddress{
+	height: 55px;
+}
+#inputAddress2{
+	height: 200px;
+	justify-content: flex-start;
+}
+.contact-icons{
+	display: flex;
+	background-color:#10a39280 ;
+	margin-top: 10px;
+    margin-bottom: 19px;
+    height: 100px;
+    border-radius: 17px;
+    padding: 14px;
+}
+
+.contact-icons1{
+	font-size: 29px;
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 55px;
+    border-radius: 77px;
+    height: 55px;
+    text-align: center;
+    background-color: #34acafa1;
+    padding-top: 5px;
+
+}
+#form{
+	border: 0;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 22%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 27px;
+}
+#Useful-Links{
+		text-decoration: none;
+		color: #cccccc;
+		margin-top: 8px;
+		list-style: none;
+}
+
+ol, ul {
+    padding-left: 0!important	;
+}
+
+a{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#Last2nd-Div{
+	background-color: #008374; 
+	color: whitesmoke; 
+	padding: 20px;
+	height: 290px;
+
+}
+#last4icon{
+	border: 1px solid whitesmoke;
+	height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 9px;
+    margin-right: 7px;
+    color: #cccccc;
+}
+.footer{
+	background-color: #ef3619fa;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+}
+.footer1{
+	position: relative;
+    top: 5px;
+    font-size: 26px;
+    color: white;
+}
